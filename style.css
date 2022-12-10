@@ -1,0 +1,61 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+section,.button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.radio{
+color:white;
+margin-top: 15px;
+font-size: 15px;
+
+}
+.checkbox{
+color: white;
+margin-top: 15px;
+font-size: 15px;
+}
+.first{
+color: white;
+display: block;
+border: none;
+outline: none;
+border-bottom: 1px solid white;
+font-size: 15px;
+font-family: 'inter';
+}
+.first{
+width: 250px;
+height: 30px;
+margin: 8px;
+margin-top: 5px;
+}
+
+header{
+    color: white;
+    margin-top: 40px;
+    font-family: 'inter';
+    font-size: 35px;
+    }
+.button,header{
+    margin-left: 485px;
+}
+.button{
+    width: 90px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'inter';
+    
+    
+}
+#unique{
+    height: 50px;
+}
