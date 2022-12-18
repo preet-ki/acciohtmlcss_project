@@ -1,61 +1,53 @@
 *{
     background-color: black;
-    box-sizing: border-box;
+    
     
 }
-section,.button{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.radio{
-color:white;
-margin-top: 15px;
-font-size: 16px;
-
-}
-.checkbox{
-color: white;
-margin-top: 15px;
-font-size: 15px;
-}
-.first{
-color: white;
-display: block;
-border: none;
-outline: none;
-border-bottom: 1px solid white;
-font-size: 15px;
-font-family: 'inter';
-}
-.first{
-width: 250px;
-height: 30px;
-margin: 8px;
-margin-top: 5px;
-}
-
 header{
-    color: white;
-    margin-top: 40px;
-    font-family: 'inter';
+    color:white;
     font-size: 35px;
-    }
-.button,header{
-    margin-left: 485px;
+     font-weight: 200;
+     font:Inter;
+     position: absolute;
+     top:55px;
+     left:216px;
 }
-.button{
-    width: 90px;
-    height: 25px;
-    color: black;
-    background-color: white;
-    margin-top: 30px;
-    border-radius: 2px;
-    font-size: 15px;
-    font-family: 'inter';
-    
+main{
+   position: absolute;
+   top:115px;
+   left: 200px;
+   display: block;
+   
+   
+   
+
+}
+#name,#email,.password,#dob{
+    display: block;
+    border: none;
+    outline: none;
+    color: white;
+    width:700px;
+    border-bottom: 1px solid white;
+    margin:18px ;
+
+}
+.form,#first,#second{
+    color: white;
     
 }
-#unique{
-    height: 50px;
+.form{
+    position: relative;
+    top:17px;
+}
+button{
+    position: relative;
+color: black;
+box-sizing: border-box;
+background-color: white;
+top:28px;
+width: 100px;
+padding: 10px;
+cursor: pointer;
+
 }
